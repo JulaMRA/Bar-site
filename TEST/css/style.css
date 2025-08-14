@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap');
+
+@import url('sections/header.css');
+@import url('sections/hero.css');
+@import url('sections/cocktails.css');
+@import url('sections/about.css');
+@import url('sections/footer.css');
+@import url('sections/contact.css');
+
+
+:root {
+  --velvet: #760D2A;
+  --dark-velvet: #2e0711;
+  --gold: #CFAF7B;
+  --dark: #1c1b1b;
+  --light: #f9f6f2;
+
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}

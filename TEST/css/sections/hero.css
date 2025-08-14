@@ -1,0 +1,27 @@
+.hero {
+  background: url('/assets/tlo.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero .overlay {
+  background-color: rgba(0,0,0,0.5);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-family: var(--font-title);
+  font-size: 3rem;
+}
+
+.hero p {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: var(--gold);
+}
