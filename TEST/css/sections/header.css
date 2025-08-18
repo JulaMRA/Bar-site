@@ -35,3 +35,41 @@
   color: var(--gold);
   margin-right: auto;
 }
+
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--gold);
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .header ul.nav-list {
+    display: none;
+    flex-direction: column;
+    line-height: 1.6;
+    font-family: var(--font-body);
+    width: 100%;
+    background: rgba(28, 27, 27, 0.95);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem 0;
+  }
+  .header ul .nav-list:hover{
+    color: var(--gold);
+  }
+  .header ul.nav-list.active {
+    display: flex;
+  }
+  .burger {
+    display: block;
+    margin-left: auto;
+  }
+  .logo {
+    margin-right: 0;
+  }
+}
+
